@@ -13,7 +13,7 @@ Two units close to IT support work, plus two that show my coding. Each page cove
 | **Unit 16: Cloud computing** | Designed, built, tested and reviewed a shared Google Drive system for five employees, plus a report on how organisations use cloud technology. | Distinction | [📄 Read](units/unit-16-cloud-computing.md) |
 | **Unit 12: IT Technical Support and Management** | A report on the support needs of two organisations, and a guide to 12 everyday maintenance tasks with logged issues. | Distinction | [📄 Read](units/unit-12-it-technical-support.md) |
 | **Unit 4: Programming** | A Python tournament scoring program with input validation, a test plan and an error log. | Distinction | [📄 Read](units/unit-04-programming.md) · [💻 Code](projects/tournament-scoring/tournament.py) |
-| **Unit 6: Website development** | A six-page website for my own product brand, built in HTML, CSS and JavaScript, with a working add-to-cart. | Distinction | [📄 Read](units/unit-06-website.md) · [💻 Code](projects/portifry-website/) |
+| **Unit 6: Website development** | A six-page website for my own product brand, built in HTML, CSS and JavaScript, with a working add-to-cart. | Distinction | [📄 Read](units/unit-06-website.md) · [💻 Code](projects/portifry-website/) · [🌐 Live](https://malik-labs.github.io/IT-Coursework/projects/portifry-website/) |
 
 <h2>Skills Demonstrated</h2>
 
