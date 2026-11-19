@@ -6,4 +6,3 @@ My BTEC Unit 6 website assignment. See the [write-up](../../units/unit-06-websit
 
 **Run it locally:** download this folder and open `index.html` in a browser.
 
-Product photos are AI-generated mock-ups.
