@@ -1,6 +1,6 @@
 # Unit 4: Programming
 
-**Language:** Python &nbsp;·&nbsp; **Code:** [tournament.py](../projects/tournament-scoring/tournament.py)
+**Grade:** Distinction &nbsp;·&nbsp; **Language:** Python &nbsp;·&nbsp; **Code:** [tournament.py](../projects/tournament-scoring/tournament.py)
 
 **The brief:** a college asked me to write a scoring program for its tournament. Each participant enters their name, chooses sports or academic events, picks five events, and gets 0–5 points for each. The program totals the points and awards a Bronze, Silver or Gold medal.
 
