@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Portifry | Product</title>
+    <link rel="stylesheet" href="style.css">
+	<script src="script.js" defer></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #fff;
+        }
+        header, footer {
+            background: #f5f5f5;
+            padding: 20px;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center-right;
+            gap: 30px;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #2a78b2;
+            font-weight:;
+        }
+        .product-container {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 40px;
+            justify-content: center;
+            gap: 40px;
+        }
+        .product-image {
+            flex: 1;
+            max-width: 400px;
+        }
+        .product-image img {
+            width: 100%;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+        .product-image img:hover {
+            transform: scale(1.05);
+        }
+        .product-details {
+            flex: 1;
+            max-width: 400px;
+        }
+        .product-title {
+            font-size: 1.8em;
+            margin-bottom: 10px;
+        }
+        .price {
+            color: #2a78b2;
+            font-size: 1.4em;
+            margin-bottom: 10px;
+        }
+        .stars {
+            color: gold;
+            font-size: 1.2em;
+            margin-bottom: 10px;
+        }
+        .color-options input {
+            margin-right: 5px;
+        }
+        .quantity-selector {
+            margin: 15px 0;
+        }
+        .quantity-selector input {
+            width: 40px;
+            text-align: center;
+        }
+        .cta-button {
+            display: inline-block;
+            padding: 12px 20px;
+            background-color: #2a78b2;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+	<div class="top-banner">Free Delivery on All Orders!</div>	
+
+<header>
+  <div class="logo"> Portifry</div>
+  <nav>
+    <ul class="menu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="product.html">Product</a></li>
+      <li><a href="track.html">Track Order</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+  </nav>
+ 
+  <div class="header-icons">
+    <input type="text" id="searchBox" placeholder="Search..." onkeyup="searchFunction()">
+    <div class="cart-wrapper">
+      <img src="images/cartt.png" alt="Cart" class="icon" id="cart-icon" />
+      <div class="cart-dropdown" id="cart-dropdown" style="display: none;">
+        <p><strong>Cart Preview</strong></p>
+        <div id="cart-items"></div>
+        <p><a href="cart.html">View Cart</a></p>
+      </div>
+    </div>
+  </div>
+
+
+</header>
+
+
+<main class="product-container">
+    <div class="product-image">
+        <img src="images/mainproduct.png" alt="Product Image">
+    </div>
+    <div class="product-details">
+        <h1 class="product-title">Portifry Bento Box</h1>
+        <div class="stars">★★★★☆ (4.5/5)</div>
+        <div class="price">$39.99 <span style="text-decoration: line-through; color: grey;">$59.99</span></div>
+        <p>Eco-friendly and designed to keep your meals warm and fresh wherever you go.</p>
+
+        <div class="color-options">
+            <label>Select Color:</label><br>
+            <input type="radio" name="color" value="blue" checked> Blue
+            <input type="radio" name="color" value="green"> Green
+            <input type="radio" name="color" value="pink"> Pink
+        </div>
+
+<div class="quantity-selector">
+    <label>Quantity:</label><br>
+    <button>-</button>
+    <input type="text" id="quantity" value="1">
+    <button>+</button>
+</div>
+
+<button class="cta-button" id="add-to-cart-btn">Add to Cart</button>
+
+    </div>
+</main>
+
+
+    <footer class="footer" style="background-color:#2a78b2; padding: 20px; color:white; text-align:center;">
+        <div class="subscribe">
+            <label>Subscribe to our emails!</label>
+            <input type="email" placeholder="Email" style="padding:5px; margin:10px;">
+            <button style="padding:5px 10px;">→</button>
+        </div>
+        <div class="footer-links" style="margin-top:10px;">
+            <a href="#" style="color:white;">Privacy Policy</a> |
+            <a href="#" style="color:white;">Terms of Service</a> |
+            <a href="contact.html" style="color:white;">Contact</a>
+        </div>
+        <p style="margin-top:10px;">&copy; 2025 Portifry. All rights reserved.</p>
+    </footer>
+	
+	
+
+</body>
+
+</html>

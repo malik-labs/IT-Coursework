@@ -66,5 +66,5 @@ I've since recorded several of these tasks as video guides: see [Windows Support
 ---
 
 <p align="center">
-<a href="unit-16-cloud-computing.md">← Unit 16: Cloud computing</a> &nbsp;·&nbsp; <a href="../README.md#units">All coursework</a>
+<a href="unit-16-cloud-computing.md">← Unit 16: Cloud computing</a> &nbsp;·&nbsp; <a href="../README.md#units">All coursework</a> &nbsp;·&nbsp; <a href="unit-04-programming.md">Unit 4: Programming →</a>
 </p>
